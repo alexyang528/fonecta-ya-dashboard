@@ -1,0 +1,70 @@
+{
+    "$id": "kh_yhteenveto_arvosteluista",
+    "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+    "name": "Yhteenveto arvosteluista",
+    "insights": [
+      {
+        "insight": "REVIEWS-OVERVIEW",
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Arvosteluiden_maaran_kehitys",
+        "x": 2,
+        "y": 0,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Arvosteluiden_keskiarvon_kehitys",
+        "x": 4,
+        "y": 0,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Arvostelut_sivustoittain",
+        "x": 0,
+        "y": 1,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Google-arvosteluiden_vastausprosentti",
+        "x": 2,
+        "y": 1,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "REVIEW-RATING-PIE",
+        "x": 4,
+        "y": 1,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
+        "x": 0,
+        "y": 2,
+        "width": 4,
+        "height": 2
+      },
+      {
+        "insight": "COMPETITOR-REVIEW-RATING-GOOGLE",
+        "x": 4,
+        "y": 2,
+        "width": 2,
+        "height": 1
+      },
+      {
+        "insight": "ya_Avainsanojen_maininnat_arvosteluissa95702",
+        "x": 0,
+        "y": 4,
+        "width": 4,
+        "height": 1
+      }
+    ]
+  }

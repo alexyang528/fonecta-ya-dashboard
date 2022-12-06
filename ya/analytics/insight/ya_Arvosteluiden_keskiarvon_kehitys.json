@@ -1,0 +1,23 @@
+{
+    "$id": "ya_Arvosteluiden_keskiarvon_kehitys",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Arvosteluiden keskiarvon kehitys",
+    "description": "Arvosteluiden keskiarvon kehitys kuukausitasolla",
+    "query": {
+      "metrics": [
+        "yext/COMPETITOR_REVIEW_RATING"
+      ],
+      "dimensions": [
+        "yext/MONTHS"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_1"
+        }
+      ]
+    },
+    "display": {
+      "line": {}
+    }
+  }

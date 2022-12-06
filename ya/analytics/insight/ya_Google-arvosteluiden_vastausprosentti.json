@@ -1,0 +1,25 @@
+{
+    "$id": "ya_Google-arvosteluiden_vastausprosentti",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Google-arvosteluiden vastausprosentti",
+    "description": "Kuinka moneen prosenttiin valitulla ajanjaksolla saapuneista uusista Google-arvosteluista yrityksesi on vastannut. Huom. Jos yrityksesi ei ole saanut valitulla ajanjaksolla uusia Google-arvosteluita, prosenttiluku on 0.",
+    "query": {
+      "metrics": [
+        "yext/REVIEW_RESPONSE_RATE"
+      ],
+      "dimensions": [
+        "yext/ENTITIES"
+      ],
+      "filters": [
+        {
+          "filter": "yext/date",
+          "in": "MONTHS_13"
+        }
+      ]
+    },
+    "display": {
+      "hero": {
+        "aggregation": "MEAN"
+      }
+    }
+  }
