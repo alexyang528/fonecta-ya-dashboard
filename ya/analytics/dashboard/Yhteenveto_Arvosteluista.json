@@ -1,7 +1,7 @@
 {
     "$id": "ya_yhteenveto_arvosteluista",
     "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-    "name": "Yhteenveto arvosteluista",
+    "name": "Yhteenveto Arvosteluista",
     "insights": [
       {
         "insight": "REVIEWS-OVERVIEW",
