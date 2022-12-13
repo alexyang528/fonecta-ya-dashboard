@@ -1,5 +1,5 @@
 {
-    "$id": "kh_yhteenveto_arvosteluista",
+    "$id": "ya_yhteenveto_arvosteluista",
     "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
     "name": "Yhteenveto arvosteluista",
     "insights": [
@@ -60,7 +60,7 @@
         "height": 1
       },
       {
-        "insight": "ya_Avainsanojen_maininnat_arvosteluissa95702",
+        "insight": "ya_Avainsanojen_maininnat_arvosteluissa",
         "x": 0,
         "y": 4,
         "width": 4,
