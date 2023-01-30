@@ -1,70 +1,70 @@
 {
-    "$id": "ya_yhteenveto_arvosteluista",
-    "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-    "name": "Yhteenveto Arvosteluista",
-    "insights": [
-      {
-        "insight": "REVIEWS-OVERVIEW",
-        "x": 0,
-        "y": 0,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Arvosteluiden_maaran_kehitys",
-        "x": 2,
-        "y": 0,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Arvosteluiden_keskiarvon_kehitys",
-        "x": 4,
-        "y": 0,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Arvostelut_sivustoittain",
-        "x": 0,
-        "y": 1,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Google-arvosteluiden_vastausprosentti",
-        "x": 2,
-        "y": 1,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "REVIEW-RATING-PIE",
-        "x": 4,
-        "y": 1,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
-        "x": 0,
-        "y": 2,
-        "width": 4,
-        "height": 2
-      },
-      {
-        "insight": "COMPETITOR-REVIEW-RATING-GOOGLE",
-        "x": 4,
-        "y": 2,
-        "width": 2,
-        "height": 1
-      },
-      {
-        "insight": "ya_Avainsanojen_maininnat_arvosteluissa",
-        "x": 0,
-        "y": 4,
-        "width": 4,
-        "height": 1
-      }
-    ]
-  }
+  "$id": "ya_yhteenveto_arvosteluista",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Yhteenveto arvosteluista",
+  "insights": [
+    {
+      "insight": "REVIEWS-OVERVIEW",
+      "caption": "Tarkastele yrityksellesi annettujen arvostelujen määrää, keskimääräistä arvosanaa ja jakaumaa arvosanoittain valitulla ajanjaksolla.",
+      "x": 0,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "ya_Arvosteluiden_maaran_kehitys",
+      "caption": "Tarkastele yrityksellesi annettujen arvostelujen määrän kehitystä kuukausitasolla valitulla ajanjaksolla. Tutki milloin yrityksellesi on annettu eniten arvosteluja tai onko määrissä ollut muutoksia eri ajankohtina.",
+      "x": 2,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "ya_Arvosteluiden_keskiarvon_kehitys",
+      "caption": "Tarkastele yrityksellesi annettujen arvostelujen keskiarvon kehitystä kuukausitasolla valitulla ajanjaksolla. Tutki kuinka arvostelujen keskiarvo on kehittynyt tai vaihdellut eri ajanjaksona. Tilasto näyttää keskiarvon kuukaudelta annetuista arvosteluista, ei kaikkien saatujen arvosteluiden kokonaiskeskiarvoa.",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "ya_Arvostelut_julkaisusivustoittain",
+      "caption": "Tarkastele miltä eri julkaisusivustoilta yrityksesi on saanut arvosteluita valitulla ajanjaksolla.",
+      "x": 0,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "ya_Google-arvosteluiden_vastausprosentti",
+      "caption": "Kuinka moneen prosenttiin valitulla ajanjaksolla saapuneista uusista Google-arvosteluista yrityksesi on vastannut. Huom. Jos yrityksesi ei ole saanut valitulla ajanjaksolla uusia Google-arvosteluita, prosenttiluku on 0.",
+      "x": 2,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "REVIEW-RATING-PIE",
+      "x": 4,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Arvostelujen_avainsanat_ja_Asenne-arvo",
+      "caption": "Tarkastele yrityksellesi annetuissa arvosteluissa mainittuja avainsanoja ja Asenne-arvoa (1 paras, -1 heikoin). Sisältää arvosteluiden sekä Facebook-suositusten yhteydessä annetut palautteet. Arvoon vaikuttaa palautteen yhteydessä mainitut kuvaavat sanat (luotettava, huono, laadukas, hidas ym.) sekä arvostelun tähtimäärä. Tutki mitä asioita annetuissa palautteissa on mainittu ja tulisiko negatiivista Asenne-arvoa saanutta avainsanaa yrityksessä kehittää.",
+      "x": 0,
+      "y": 2,
+      "width": 6,
+      "height": 1
+    },
+    {
+      "insight": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
+      "caption": "Vertaile yrityksesi toimipisteiden saamia Google-arvosteluita valitulla ajanjaksolla: Keskiarvo, määrä ja vastausprosentti. Tilasto on apuna yrityksesi Google-arvostelujen kehityksessä. Voit tutkia mm. mille toimipisteelle tulisi pyytää lisää arvosteluja, minkä keskiarvoa (max. 5 tähteä) tai vastausprosenttia (max. 100%) tulisi nostaa. Kun haluat nähdä kokonaistilannetta toimipisteiden saamista Google-arvosteluista, valitse ajanjaksoksi 'Koko ajalta'.",
+      "x": 0,
+      "y": 3,
+      "width": 6,
+      "height": 2
+    }
+  ]
+}

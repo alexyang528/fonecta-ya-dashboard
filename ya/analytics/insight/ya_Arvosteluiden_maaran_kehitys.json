@@ -1,23 +1,22 @@
 {
-    "$id": "ya_Arvosteluiden_maaran_kehitys",
-    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Arvosteluiden määrän kehitys",
-    "description": "Saatujen arvosteluiden määrän kehitys kuukausitasolla.",
-    "query": {
-      "metrics": [
-        "yext/NEW_REVIEWS"
-      ],
-      "dimensions": [
-        "yext/MONTHS"
-      ],
-      "filters": [
-        {
-          "filter": "yext/date",
-          "in": "MONTHS_1"
-        }
-      ]
-    },
-    "display": {
-      "line": {}
-    }
+  "$id": "ya_Arvosteluiden_maaran_kehitys",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Arvosteluiden määrän kehitys",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "MONTHS_1"
+      }
+    ]
+  },
+  "display": {
+    "line": {}
   }
+}

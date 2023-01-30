@@ -1,44 +1,43 @@
 {
-    "$id": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
-    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Toimipisteiden Google-arvosteluiden vertailu",
-    "description": "Toimipisteiden Google-arvosteluiden vertailu: Keskimääräinen arvio, määrä ja vastausprosentti valitulla ajanjaksolla.",
-    "query": {
-      "metrics": [
-        "yext/AVERAGE_RATING",
-        "yext/NEW_REVIEWS",
-        "yext/REVIEW_RESPONSE_RATE"
-      ],
-      "fields": [
-        "entityId",
-        "name",
-        "address",
-        "yext/derivedField-city"
-      ],
-      "dimensions": [
-        "yext/LOCATIONS"
-      ],
-      "filters": [
-        {
-          "filter": "yext/date",
-          "in": "WEEKS_12"
+  "$id": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Toimipisteiden Google-arvosteluiden vertailu",
+  "query": {
+    "metrics": [
+      "yext/AVERAGE_RATING",
+      "yext/NEW_REVIEWS",
+      "yext/REVIEW_RESPONSE_RATE"
+    ],
+    "fields": [
+      "entityId",
+      "name",
+      "address",
+      "yext/derivedField-city"
+    ],
+    "dimensions": [
+      "yext/LOCATIONS"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "WEEKS_12"
+      },
+      {
+        "filter": "yext/partners",
+        "in": [
+          "715,713,558"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/NEW_REVIEWS"
         },
-        {
-          "filter": "yext/partners",
-          "in": [
-            "715,713,558"
-          ]
-        }
-      ]
-    },
-    "display": {
-      "table": {
-        "sort": {
-          "column": {
-            "metric": "yext/NEW_REVIEWS"
-          },
-          "descending": true
-        }
+        "descending": true
       }
     }
   }
+}
