@@ -45,7 +45,7 @@
     },
     {
       "insight": "REVIEW-RATING-PIE",
-      "x": 4,
+      "caption": "Vertaile yrityksesi toimipisteiden saamia Google-arvosteluita valitulla ajanjaksolla: Keskiarvo, määrä ja vastausprosentti. Tilasto on apuna yrityksesi Google-arvostelujen kehityksessä. Voit tutkia mm. mille toimipisteelle tulisi pyytää lisää arvosteluja, minkä keskiarvoa (max. 5 tähteä) tai vastausprosenttia (max. 100%) tulisi nostaa. Kun haluat nähdä kokonaistilannetta toimipisteiden saamista Google-arvosteluista, valitse ajanjaksoksi 'Koko ajalta'.",
       "y": 1,
       "width": 2,
       "height": 1
