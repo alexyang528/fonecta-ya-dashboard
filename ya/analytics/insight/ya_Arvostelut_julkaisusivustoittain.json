@@ -1,7 +1,7 @@
 {
   "$id": "ya_Arvostelut_julkaisusivustoittain",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-  "name": "Arvostelut sivustoittain",
+  "name": "Arvostelut julkaisusivustoittain",
   "description": "Tarkastele miltä eri julkaisusivustoilta yrityksesi on saanut arvosteluita valitulla ajanjaksolla.",
   "query": {
     "metrics": [
@@ -9,12 +9,6 @@
     ],
     "dimensions": [
       "yext/PARTNERS"
-    ],
-    "filters": [
-      {
-        "filter": "yext/date",
-        "in": "WEEKS_12"
-      }
     ]
   },
   "display": {

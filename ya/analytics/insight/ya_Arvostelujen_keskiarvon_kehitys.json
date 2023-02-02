@@ -1,0 +1,17 @@
+{
+  "$id": "ya_Arvostelujen_keskiarvon_kehitys",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Arvostelujen keskiarvon kehitys",
+  "description": "Tarkastele yrityksellesi annettujen arvostelujen keskiarvon kehitystä valitulla ajanjaksolla kuukausitasolla. Tutki kuinka uusien arvosteluiden keskiarvo on kehittynyt tai vaihdellut eri ajanjaksona. Tilasto näyttää keskiarvon kuukaudelta annetuista arvosteluista, ei kaikkien arvosteluiden kokonaiskeskiarvoa.",
+  "query": {
+    "metrics": [
+      "yext/COMPETITOR_REVIEW_RATING"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}

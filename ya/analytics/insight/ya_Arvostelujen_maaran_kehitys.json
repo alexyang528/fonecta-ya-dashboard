@@ -1,0 +1,17 @@
+{
+  "$id": "ya_Arvostelujen_maaran_kehitys",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Arvostelujen määrän kehitys",
+  "description": "Tarkastele yrityksellesi annettujen arvostelujen määrän kehitystä valitulla ajanjaksolla kuukausitasolla. Tutki milloin yrityksellesi on annettu eniten arvosteluja tai onko määrissä ollut kehitystä.",
+  "query": {
+    "metrics": [
+      "yext/NEW_REVIEWS"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ]
+  },
+  "display": {
+    "line": {}
+  }
+}
