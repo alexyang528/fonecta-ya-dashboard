@@ -2,6 +2,7 @@
   "$id": "ya_Toimipisteiden_Google-arvosteluiden_vertailu",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Toimipisteiden Google-arvosteluiden vertailu",
+  "description": "Vertaile yrityksesi toimipisteiden saamia Google-arvosteluita valitulla ajanjaksolla: Keskiarvo, määrä ja vastausprosentti. Tilasto on apuna yrityksesi Google-arvostelujen kehityksessä. Voit tutkia mm. mille toimipisteelle tulisi pyytää lisää arvosteluja, minkä keskiarvoa (max. 5 tähteä) tai vastausprosenttia (max. 100%) tulisi nostaa. Kun haluat nähdä kokonaistilannetta toimipisteiden saamista Google-arvosteluista, valitse ajanjaksoksi 'Koko ajalta'.",
   "query": {
     "metrics": [
       "yext/AVERAGE_RATING",
