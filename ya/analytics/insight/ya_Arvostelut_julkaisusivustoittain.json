@@ -1,5 +1,5 @@
 {
-  "$id": "ya_Arvostelut_julkaisusivustoittain",
+  "$id": "Arvostelut_julkaisusivustoittain",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Arvostelut julkaisusivustoittain",
   "description": "Tarkastele miltä eri julkaisusivustoilta yrityksesi on saanut arvosteluita valitulla ajanjaksolla.",
